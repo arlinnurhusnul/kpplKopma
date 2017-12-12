@@ -13,7 +13,7 @@ $assets_location = base_url()."aset/dashboard/";
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Bootstrap Admin Template</title>
+    <title>KM Admin - Kopma ITS</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo $assets_location;?>css/bootstrap.min.css" rel="stylesheet">
