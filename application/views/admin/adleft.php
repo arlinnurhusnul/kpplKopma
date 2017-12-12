@@ -16,7 +16,7 @@ $assets_location = base_url()."aset/dashboard/";
                     <li>
                         <a href="<?php echo base_url().'index.php/admin/lihatproduk';?>"><i class="fa fa-fw fa-edit"></i> Lihat Produk</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
                     </li>
                     <li>
@@ -38,7 +38,7 @@ $assets_location = base_url()."aset/dashboard/";
                     </li>
                     <li>
                         <a href="index-rtl.html"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

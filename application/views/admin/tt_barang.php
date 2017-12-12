@@ -15,10 +15,10 @@ $assets_location = base_url()."aset/dashboard/";
                                                 <th>Kode Barang</th>
                                                 <th>Kategori Barang</th>
                                                 <th>Nama Barang</th>
-												<th>Harga Beli</th>
-												<th>Harga Jual</th>
+												<th>Harga</th>
 												<th>Gambar</th>
-												<th>Berat</th>
+												<th>Keterangan</th>
+												<th>Stock</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -27,10 +27,10 @@ $assets_location = base_url()."aset/dashboard/";
                                                 <td><?php echo $b['kode_barang']; ?></td>
                                                 <td><?php echo $b['kategori']; ?></td>
                                                 <td><?php echo $b['nama_barang']; ?></td>
-												<td><?php echo $b['harga_modal']; ?></td>
-												<td><?php echo $b['harga_jual']; ?></td>
+												<td><?php echo $b['harga']; ?></td>
 												<td><?php echo $b['file_gambar']; ?></td>
-												<td><?php echo $b['berat']; ?></td>
+												<td><?php echo $b['keterangan']; ?></td>
+												<td><?php echo $b['stock']; ?></td>
 												<td><a href="<?php echo base_url().'index.php/admin/deleteproduk/'.$b['kode_barang'];?>"><button>Delete</button></a></td>
                                             </tr>
                                         </tbody>
