@@ -16,7 +16,7 @@ $assets_location = base_url()."aset/dashboard/";
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">SB Admin</a>
+                <a class="navbar-brand">Admin</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -101,7 +101,7 @@ $assets_location = base_url()."aset/dashboard/";
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="<?php echo base_url().'index.php/login/logout';?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Logout <b class="caret"></b></a>
+                    <a href="<?php echo base_url().'index.php/login/logout';?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Logout </a>
                     
                 </li>
             </ul>
